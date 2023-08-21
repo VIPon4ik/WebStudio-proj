@@ -803,3 +803,36 @@ fieldset {
 .form-button:focus {
   background-color: rgba(64, 75, 191, 1);
 }
+
+/* Media */
+/* Mobile 320px - 768px */
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  /* Second section mobile  */
+  section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .second-section-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .second-section-list-li {
+    width: 100%;
+  }
+
+  .second-section-list-title {
+    text-align: center;
+  }
+
+  .second-section-icon-container {
+    display: none;
+  }
+
+  /* Third section mobile */
+}
