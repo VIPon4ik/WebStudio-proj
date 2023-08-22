@@ -815,7 +815,11 @@ fieldset {
   }
 
   /* Header */
-  .navigation-bar {
+  .navigation-list {
+    display: none;
+  }
+
+  .address-bar {
     display: none;
   }
 
@@ -909,7 +913,6 @@ fieldset {
   .footer-input {
     width: 398px;
   }
-
   /* Backdrop */
   .backdrop {
     width: 392px;
