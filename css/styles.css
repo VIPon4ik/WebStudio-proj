@@ -992,3 +992,11 @@ fieldset {
     width: 392px;
   }
 }
+
+/* Mobile 320px - 428px */
+
+@media (min-width:320px) and (max-width:427px) {
+  .footer-input {
+    width: 264px;
+  }
+}
