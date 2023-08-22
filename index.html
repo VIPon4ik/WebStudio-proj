@@ -38,7 +38,11 @@
           </ul>
         </nav>
         <!-- Burger icon -->
-        <button class="menu-toggle js-open-menu">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="header-burger-icon" width="32" height="22">
             <use href="./images/icons.svg#burger"></use>
           </svg>
@@ -556,6 +560,14 @@
           <button class="form-button" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="backdrop-svg" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
     </div>
 
     <script src="./js/modal.js"></script>
