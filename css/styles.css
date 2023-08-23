@@ -875,6 +875,15 @@ fieldset {
 }
 
 /* Media */
+@media (min-resolution: 196dpi) {
+  .first-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero-image@2x.jpg');
+  }
+}
 /* All styles 320px - 1158px */
 @media (min-width: 320px) and (max-width: 1158px) {
   /* General mobile */
@@ -893,6 +902,22 @@ fieldset {
 
   .address-bar {
     display: none;
+  }
+
+  /* First section mobile */
+  .first-section {
+    padding: 112px 0px;
+    max-width: 428px;
+  }
+  .first-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    width: 320px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
   }
 
   /* Second section mobile  */
