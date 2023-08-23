@@ -989,6 +989,37 @@ fieldset {
   .backdrop {
     width: 392px;
   }
+
+  /* Portfolio file */
+  .portfolio-section {
+    padding: 48px 0;
+  }
+  .portfolio-button-list {
+    justify-content: start;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    margin-bottom: 48px;
+  }
+  .portfolio-button-li {
+    width: calc((100%-48px)/3);
+  }
+
+  /* Portfolio projects */
+  .portfolio-section-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .portfolio-section-list-li {
+    width: 396px;
+    height: 400px;
+  }
+  .image-container-div {
+    height: 280px;
+  }
+  .image-container-div img {
+    width: 100%;
+  }
 }
 
 /* Mobile 320px - 428px */
