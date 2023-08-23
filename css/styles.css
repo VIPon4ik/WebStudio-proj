@@ -205,13 +205,11 @@ fieldset {
   height: 100vh;
   background-color: white;
   overflow: scroll;
+  padding: 80px 35px 40px 40px;
+  z-index: 999;
 }
 .is-open {
-  padding: 80px 35px 40px 40px;
   transform: translateX(0);
-
-  background-color: white;
-  z-index: 999;
 }
 
 .js-open-menu {
