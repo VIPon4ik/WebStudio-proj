@@ -30,9 +30,7 @@
             >
             <ul class="navigation-list">
               <li>
-                <a href="./index.html" class="navigation-links"
-                  >Studio</a
-                >
+                <a href="./index.html" class="navigation-links">Studio</a>
               </li>
               <li>
                 <a href="./portfolio.html" class="navigation-links current"
@@ -102,7 +100,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img1.jpg 1x, ./images/portfolio/portfolio-img1@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img1.jpg    1x,
+                        ./images/portfolio/portfolio-img1@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img1.jpg"
                       alt="Banking app portfolio image"
                       width="360"
@@ -124,7 +125,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img2.jpg 1x, ./images/portfolio/portfolio-img2@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img2.jpg    1x,
+                        ./images/portfolio/portfolio-img2@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img2.jpg"
                       alt="Cashless Payment portfolio image"
                       width="360"
@@ -148,7 +152,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img3.jpg 1x, ./images/portfolio/portfolio-img3@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img3.jpg    1x,
+                        ./images/portfolio/portfolio-img3@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img3.jpg"
                       alt="Meditation App portfolio image"
                       width="360"
@@ -170,7 +177,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img4.jpg 1x, ./images/portfolio/portfolio-img4@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img4.jpg    1x,
+                        ./images/portfolio/portfolio-img4@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img4.jpg"
                       alt="Taxi Service portfolio image"
                       width="360"
@@ -192,7 +202,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img5.jpg 1x, ./images/portfolio/portfolio-img5@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img5.jpg    1x,
+                        ./images/portfolio/portfolio-img5@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img5.jpg"
                       alt="Screen Illustrations portfolio image"
                       width="360"
@@ -216,7 +229,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img6.jpg 1x, ./images/portfolio/portfolio-img6@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img6.jpg    1x,
+                        ./images/portfolio/portfolio-img6@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img6.jpg"
                       alt="Banking app portfolio image"
                       width="360"
@@ -238,7 +254,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img7.jpg 1x, ./images/portfolio/portfolio-img7@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img7.jpg    1x,
+                        ./images/portfolio/portfolio-img7@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img7.jpg"
                       alt="Instagram Stories Concept portfolio image"
                       width="360"
@@ -262,7 +281,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img8.jpg 1x, ./images/portfolio/portfolio-img8@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img8.jpg    1x,
+                        ./images/portfolio/portfolio-img8@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img8.jpg"
                       alt="Organic Food portfolio image"
                       width="360"
@@ -284,7 +306,10 @@
                 <a href="" class="image-container">
                   <div class="image-container-div">
                     <img
-                      srcset="./images/portfolio/portfolio-img9.jpg 1x, ./images/portfolio/portfolio-img9@2x.jpg 2x"
+                      srcset="
+                        ./images/portfolio/portfolio-img9.jpg    1x,
+                        ./images/portfolio/portfolio-img9@2x.jpg 2x
+                      "
                       src="./images/portfolio/portfolio-img9.jpg"
                       alt="Fresh Coffee portfolio image"
                       width="360"
@@ -355,15 +380,18 @@
           <div class="footer-form-container">
             <p class="footer-form-text">Subscribe</p>
             <form class="footer-input-button-container" autocomplete="off">
-              <label for="footer-email" class="footer-label">
-                <input
-                  class="footer-input"
-                  type="email"
-                  placeholder="E-mail"
-                  name="footer-email"
-                  id="footer-email"
-                />
-              </label>
+              <div class="footer-email-container">
+                <label for="footer-email" class="footer-label">
+                  <input
+                    class="footer-input"
+                    type="email"
+                    placeholder="E-mail"
+                    name="footer-email"
+                    id="footer-email"
+                  />
+                </label>
+              </div>
+
               <button type="submit" class="footer-form-button">
                 Subscribe
                 <svg class="footer-form-svg" height="24" width="24">
@@ -385,12 +413,12 @@
         <nav class="menu-navigation">
           <ul class="menu-navigation-list">
             <li class="menu-navigation-item">
-              <a href="./index.html" class="menu-navigation-link"
-                >Studio</a
-              >
+              <a href="./index.html" class="menu-navigation-link">Studio</a>
             </li>
             <li class="menu-navigation-item">
-              <a href="./portfolio.html" class="current-menu menu-navigation-link"
+              <a
+                href="./portfolio.html"
+                class="current-menu menu-navigation-link"
                 >Portfolio</a
               >
             </li>
