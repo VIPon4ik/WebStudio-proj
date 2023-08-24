@@ -1048,11 +1048,11 @@ fieldset {
   .portfolio-section-list-li {
     max-width: 396px;
     width: 100%;
-    min-width: 306px;
+    min-width: 290px;
     height: 400px;
   }
   .image-container-div {
-    height: 280px;
+    height: 300px;
   }
   .image-container-div img {
     width: 396px;
@@ -1061,7 +1061,7 @@ fieldset {
 
 /* Mobile 320px - 428px */
 
-@media (min-width:320px) and (max-width:427px) {
+@media (min-width:320px) and (max-width:428px) {
   /* Hero section */
   .first-section-title {
     font-size: 32px;
@@ -1084,6 +1084,8 @@ fieldset {
   .menu-address-phone {
     font-size: 24px;
   }
+
+  /* Portfolio file 320px */
 }
 
 /* Tablet Media 768px - 1158px */
