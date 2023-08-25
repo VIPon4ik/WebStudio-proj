@@ -220,7 +220,11 @@ fieldset {
 }
 
 .menu-navigation {
-  margin-bottom: 284px;
+  /* margin-bottom: 284px; */
+}
+.menu-wrapper {
+  min-height: 284px;
+  height: calc(100vh - 512px);
 }
 .menu-navigation-link {
   font-size: 36px;
@@ -260,6 +264,7 @@ fieldset {
 
 .menu-container .menu-social-links-container {
   gap: 56px;
+  justify-content: flex-start;
 }
 
 /* Main */
@@ -878,7 +883,7 @@ fieldset {
 }
 
 /* Media */
-@media (min-resolution: 196dpi) {
+@media (min-resolution: 192dpi) {
   .first-section {
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -891,7 +896,7 @@ fieldset {
 @media (min-width: 320px) and (max-width: 1158px) {
   /* General mobile */
   .container {
-    max-width: 767px;
+    max-width: 428px;
     padding: 0 16px;
   }
 
@@ -974,8 +979,6 @@ fieldset {
   .fifth-section-list {
     column-gap: 16px;
     row-gap: 72px;
-    margin: 0 auto;
-    max-width: 396px;
   }
 
   .svg-container {
@@ -1079,13 +1082,24 @@ fieldset {
 
   /* Menu 320px */
   .menu-container .menu-social-links-container {
-    gap: 46px;
+    gap: 34px;
   }
   .menu-address-phone {
     font-size: 24px;
   }
-
-  /* Portfolio file 320px */
+  /* Backdrop 320px */
+  .backdrop {
+    width: 100%;
+  }
+  .form-title {
+    font-size: 13px;
+  }
+  .checkbox-container {
+    font-size: 10px;
+  }
+  .checkbox-link {
+    font-size: 10px;
+  }
 }
 
 /* Tablet Media 768px - 1158px */
@@ -1093,7 +1107,7 @@ fieldset {
 @media (min-width: 768px) and (max-width: 1158px) {
   /* General tablet */
   .container {
-    max-width: 1158px;
+    max-width: 584px;
   }
   /* Header tablet */
   .header-container {
@@ -1143,6 +1157,9 @@ fieldset {
     max-width: 768px;
   }
   /* Second-section tablet */
+  .second-section .container {
+    max-width: 768px;
+  }
   .second-section-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1161,31 +1178,23 @@ fieldset {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
-    margin: 0 auto;
-    max-width: 552px;
   }
   .fourth-section-li {
     margin: 0;
-    width: calc((100%-24px)/2);
+    width: calc(100%/2);
   } 
 
   /* Fifth section tablet */  
   .fifth-section-list {
-    justify-content: flex-start;
     column-gap: 24px;
-    max-width: 552px;
   }
   .svg-container {
     width: calc((100% - 48px)/3);
     max-width: 168px;
   }
   /* Footer tablet */
-  .footer-section {
-    padding-left: 108px;
-  }
   .footer-container {
     display: block;
-    max-width: 768px;
   }
   .footer-logo-container {
     display: inline-block;
