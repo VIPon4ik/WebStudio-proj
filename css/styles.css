@@ -274,7 +274,7 @@ fieldset {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero-image.jpg');
+    url('../images/hero1440.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -880,15 +880,6 @@ fieldset {
 }
 
 /* Media */
-@media (min-resolution: 192dpi) {
-  .first-section {
-    background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/hero-image@2x.jpg');
-  }
-}
 /* All styles 320px - 1158px */
 @media (min-width: 320px) and (max-width: 1158px) {
   /* General mobile */
@@ -919,6 +910,11 @@ fieldset {
   .first-section {
     padding: 112px 0px;
     max-width: 428px;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero428.jpg');
   }
   .first-section-title {
     font-size: 36px;
@@ -1152,6 +1148,11 @@ fieldset {
   }
   .first-section {
     max-width: 768px;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero728.jpg')
   }
   /* Second-section tablet */
   .second-section .container {
@@ -1254,5 +1255,36 @@ fieldset {
   }
   .image-container-div img {
     width: 356px;
+  }
+}
+/* Images resolution */
+
+@media (min-resolution: 192dpi) and (min-width:1158px) {
+  .first-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero1440@2x.jpg')
+  }
+}
+/* Images tablet */
+@media (min-resolution: 192dpi) and (max-width:1158px) {
+  .first-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero728@2x.jpg')
+  }
+}
+/* Images mobile */
+@media (min-resolution: 192dpi) and (max-width:768px) {
+  .first-section {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero428@2x.jpg')
   }
 }
