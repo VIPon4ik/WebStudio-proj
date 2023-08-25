@@ -219,9 +219,6 @@ fieldset {
   display: none;
 }
 
-.menu-navigation {
-  /* margin-bottom: 284px; */
-}
 .menu-wrapper {
   min-height: 284px;
   height: calc(100vh - 512px);
@@ -1171,7 +1168,7 @@ fieldset {
   .second-section-list-title {
     text-align: start
   }
-  /* Fourth section mobile */ 
+  /* Fourth section tabllet */ 
 
   .fourth-section-list {
     flex-direction: row;
@@ -1230,6 +1227,9 @@ fieldset {
     padding: 72px 24px 24px 24px;
   }
   /* Portfolio file tablet */
+  .portfolio-section .container {
+    max-width: 768px;
+  }
   .portfolio-section {
     padding: 64px 0px 96px 0px;
   }
