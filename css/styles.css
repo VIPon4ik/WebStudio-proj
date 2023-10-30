@@ -278,7 +278,6 @@ fieldset {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -909,7 +908,6 @@ fieldset {
   /* First section mobile */
   .first-section {
     padding: 112px 0px;
-    max-width: 428px;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -1147,7 +1145,6 @@ fieldset {
     width: 496px;
   }
   .first-section {
-    max-width: 768px;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
